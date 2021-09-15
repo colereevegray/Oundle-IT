@@ -1,4 +1,41 @@
 #Logo {
-    width:30%;
+    width:120px;
     border-radius: 80px;
+    padding: 0;
+}
+
+/*
+.navbar-expand-sm {
+    justify-content:;
+}
+*/
+
+.navbar-nav{
+    margin-left:auto;
+}
+.navbar-custom {
+    background-color: #96072F;
+}
+
+.navbar-custom .navbar-dark {
+    color: whitesmoke;
+}
+@import url('https://fonts.googleapis.com/css?family=Urbanist');
+body{
+    font-family: "Urbanist",sans-serif;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    font-family: "Urbanist", sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+/*Parallax effect*/
+
+#Parallax {
+    background: url("/images/pexels-pixabay-267507.jpg");
 }
