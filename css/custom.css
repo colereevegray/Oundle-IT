@@ -36,6 +36,30 @@ h1{
 
 /*Parallax effect*/
 
-#Parallax {
-    background: url("/images/pexels-pixabay-267507.jpg");
+#parallax {
+    background: url("/images/pexels-andrea-piacquadio-3760069.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:200px; padding-top: 50px;
+    z-index: 3;
+}
+
+.wtitle{
+    color: whitesmoke;
+    position: center;
+    background-color: rgba(70, 70, 70, 0.7);
+    margin-left:20%;
+    margin-right:20%;
+    border-radius: 10px;
+    -webkit-transform: translateZ(999px) scale(.7);
+    transform: translateZ(999px) scale(.7);
+    z-index: 1;
+}
+
+#parallaxContainer {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
 }
