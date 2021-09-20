@@ -42,6 +42,15 @@ body{
     padding: 0%;
 }
 
+#parallax2 {
+    background: url("/images/pexels-brett-sayles-2425567.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
 .wtitle{
     color: black;
     margin-left:5%; margin-right: 40%;
@@ -127,4 +136,19 @@ body{
 
 #left p {
     font-size: 1.4em ;
+}
+
+#image-sizer {
+    width:30%;
+}
+
+#tbh-i-have-no-idea-what-I-am-doing-anymore{
+    background-color: rgba(0, 0, 0, 0.315);
+    padding:7%;
+    margin:0;
+}
+
+footer {
+    background-color: #96072F;
+    padding: 5%;
 }
